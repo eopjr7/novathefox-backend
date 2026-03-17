@@ -69,7 +69,7 @@ app.post('/api/chat', async (req, res) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'llama-3.1-70b-versatile',
+        model: 'gemma2-9b-it',
         messages: messages,
         max_tokens: 1024,
         temperature: 0.7
